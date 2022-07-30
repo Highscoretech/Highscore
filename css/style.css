@@ -110,7 +110,7 @@
     }
     .icon a{
         padding: 10px;
-        margin: 10px 40px;
+        margin: 10px;
         color: aliceblue;
     }
     .About{
@@ -123,7 +123,6 @@
     }
     .about{
         background: rgba(4, 4, 134, 0.246);
-        height:720px;
         padding: 20px;
         font-family: Arial, Helvetica, sans-serif;
 
