@@ -12,8 +12,28 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/style.css">
+
+    <style>
+         #mobile{
+        background-image: url("./giphy.gif");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 600px;
+    }
+    .About{
+        background-image: url("./h01.gif");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 780px;
+        color: white;
+
+    }
+    </style>
 </head>
 <body>
+
+ 
+
 
     <!-- Mobile  -->
     <section id="mobile">
@@ -43,7 +63,8 @@
                 , Solftware solution, Teaching firm, Solar Installation, Mobile App development, Technical analysis etc
             </p>
               
-        </div>
+        </div> <h2 style="color:navy; margin: 10px;">Training starts on the 1st August 2022</h2>
+                
         <div class="course">
             <h1 style="text-align: center;">Programming course</h1>
             <hr>
@@ -65,7 +86,7 @@
                         
                     </ul> <br>
                     <h3>Duration : 2months 2weeks</h3> 
-                </h4> <br> <a href="#">Enrol now</a> <hr>
+                </h4> <br> <a href="https://wa.me/message/GBYQX2VS3G4DC1">Enrol now</a> <hr>
 
             </div>
         </div>
@@ -90,7 +111,7 @@
                         
                     </ul> <br>
                     <h3>Duration : 2months 2weeks</h3> 
-                </h4> <br> <a href="#">Enrol now</a> <hr>
+                </h4> <br> <a href="https://wa.me/message/GBYQX2VS3G4DC1">Enrol now</a><hr>
 
             </div>
         </div>
@@ -118,7 +139,7 @@
                             
                         </ul> <br>
                         <h3>Duration : 3months 2weeks</h3> 
-                    </h4> <br> <a href="#">Enrol now</a> <hr>
+                    </h4> <br> <a href="https://wa.me/message/GBYQX2VS3G4DC1">Enrol now</a> <hr>
     
                 </div>
             </div>
@@ -142,11 +163,15 @@
                             <li>Payment gateway</li>
                         </ul> <br>
                         <h3>Duration : 6months</h3> 
-                    </h4> <br> <a href="#">Enrol now</a> <hr>
+                    </h4> <br><a href="https://wa.me/message/GBYQX2VS3G4DC1">Enrol now</a> <hr>
     
                 </div>
             </div>
         </div>
+    </div> <h2 style="color:navy; margin: 10px;">Training starts on the 1st August 2022 
+        <h4 style="color:navy; margin: 10px;">Calls us on 09063610647 to get enrolled now</h4></h2>
+
+
        
         <div class="About">
             <div class="about">
@@ -214,9 +239,38 @@
         </div>
     </div> -->
     
+    <script>
+        let main = document.getElementById("main")
+let marquee = document.getElementById("marquee")
+
+// Menu bar
+let displyEl = false;
+let menu = (()=>{
+    if(displyEl){
+        main.style.display = "none";
+        displyEl = false
+    }
+    else{
+        main.style.display = "block";
+        displyEl = true;   
+    }  
+})
+
+setTimeout(()=>{
+    marquee.innerHTML = ` <marquee behavior="" direction="">The world of finance has moved to the internet, We no longer belong to the 
+    belong to the era where we go to work, Don't let ignorance rule you. You can make lots of money on your bed everyday with your 
+    computer/phone and internet connection
+</marquee>`
+},10000)
 
 
 
-    <script src="/js/script.js"></script>
+
+
+    </script>
+
+
+
+    <!-- <script src="/js/script.js"></script> -->
 </body>
 </html>
